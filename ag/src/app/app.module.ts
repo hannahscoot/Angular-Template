@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { DemoPageComponent } from './demo-page/demo-page.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DemoPageComponent } from './components/demo-page/demo-page.component';
 import { StoreModule } from '@ngrx/store';
 
 @NgModule({
@@ -20,7 +20,6 @@ import { StoreModule } from '@ngrx/store';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [
-  ]
+  exports: []
 })
 export class AppModule { }
