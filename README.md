@@ -1,28 +1,31 @@
 # Angular-Temp
-Angular project for learning
+Basic Project structure for AngularJS, .Net Core with Angular Routing configured as standard.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+All these load by simply navigating to where angular.json file is located, then run `ng serve -o` for a dev server which will open and rebuild automatically.
+- - -
 
-## Development server
+> ### Commit :4db4c292a63bb9cf8961de4192c728d2873690f6:
+> This has the most basic outline structure, with angular routing.
+> 
+> No back-end, no functionality other than the page (index.html) loads and you can navigate to other pages. (example demo-page and page-not-found)
+> 
+>_The framework for starting from scratch (properly)_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- - - 
+## How to access a specific version of this project
 
-## Code scaffolding
+First, you proceed as normal, by cloning the project, typically by using:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`git clone git://github.com/hannahscoot/Angular-Template.git`
 
-## Build
+Then, navigate to the cloned project directory, typically by using:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`cd ag`
 
-## Running unit tests
+Then use a git checkout to change to the right commit, typically by using:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`git checkout [version]`
 
-## Running end-to-end tests
+In the above code snippet, subsitute `[version]` for whichever commit you choose, for example: 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+replace `[version]` with `4db4c292a63bb9cf8961de4192c728d2873690f6` in order to get the most basic project version.
